@@ -20,6 +20,7 @@ int main()
 
 	std::cout << number++ << "\n";
 	std::cout << number << "\n";
+	std::cout << (number = 10) << "\n";
 
 	return 0;
 }
