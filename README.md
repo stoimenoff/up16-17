@@ -15,3 +15,7 @@
 Грешки
 ======
 Ако забележите нещо, което според вас не е наред с хранилището, можете да ми пишете [мейл](mailto:stoimenoffjr@gmail.com) или да отворите issue [тук](https://github.com/stoimenoff/up16-17/issues).
+
+Онлайн курс
+===========
+Кърсът в moodle може да намерите [тук](https://learn.fmi.uni-sofia.bg/course/view.php?id=2655).
