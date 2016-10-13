@@ -12,9 +12,8 @@
 =======
 За всякакви въпроси, забележки и коментари можете да ни пишете на:
 
-[stoimenoffjr@gmail.com](mailto:stoimenoffjr@gmail.com)- Семинар.
-
-[zpetrov96@gmail.com](mailto:zpetrov96@gmail)- Практикум.
+* Светомир Стоименов [stoimenoffjr@gmail.com](mailto:stoimenoffjr@gmail.com)- семинар.
+* Здравко Петров [zpetrov96@gmail.com](mailto:zpetrov96@gmail)- практикум.
 
 Грешки
 ======
