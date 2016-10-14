@@ -2,7 +2,8 @@
 
 int main()
 {
-
+	//пресмята същия израз като и badnamedvariablestip.cpp и novariablestip.cpp,
+	//но използва променливи добре именовани променливи и е доста по-ясна
 	double tipPercentage = 12.0;
 	double discountPercentage = 25.0;
 	double bill = 124.5;
@@ -16,4 +17,5 @@ int main()
 	std::cout << "Discount: " << discount << "\n";
 	std::cout << "Total bill: " << totalBill << "\n";
 
+	return 0;
 }

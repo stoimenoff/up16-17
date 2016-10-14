@@ -2,7 +2,8 @@
 
 int main()
 {
-
+	//пресмята същия израз като и novariablestip.cpp, но използва променливи
+	//това не я прави особено по-ясна
 	double tpc = 12.0;
 	double dpc = 25.0;
 	double b = 124.5;
@@ -16,4 +17,6 @@ int main()
 	std::cout << d << "\n";
 	std::cout << tb << "\n";
 
+	//виж tip.cpp
+	return 0;
 }

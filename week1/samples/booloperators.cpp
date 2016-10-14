@@ -8,7 +8,5 @@ int main()
 
 	std::cout << "(5 > 7) " << isFiveGreaterThanSeven << "\n";
 
-	std::cout << isFiveGreaterThanSeven << "\n";
-
 	return 0;
 }
