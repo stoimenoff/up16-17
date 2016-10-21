@@ -6,10 +6,10 @@ int main(){
 	if (year % 4 != 0){
 		std::cout << "It is a common year..!" << std::endl;
 	}
-	else if (year % 100 != 100){
+	else if (year % 100 != 0){
 		std::cout << "It is a leap year..!" << std::endl;
 	}
-	else if (year % 400 != 400){
+	else if (year % 400 != 0){
 		std::cout << "It is a common year..!" << std::endl;
 	}
 	else{
