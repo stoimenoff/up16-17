@@ -1,25 +1,29 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
+
 int main(){
-	int number;
-	cout << "Enter a number: ";
+	unsigned int number;
+	cout << "Enter a positive number: ";
 	cin >> number;
-	if (number >= 2)
+	
+	bool isPrime = true;
+	for (int divisor = 2; divisor <= sqrt(number); divisor++)
 	{
-		for (int i = 2; i <= sqrt(number); i++)
+		if (number % divisor == 0)
 		{
-			if (number%i == 0)
-			{
-				cout << "The number " << number << " is not prime..!" << endl;
-				return 0;
-			}
+			isPrime = false;
 		}
-		cout << "The number " << number << " is prime..!" << endl;
+	}
+
+	if(isPrime && number > 1)
+	{
+		cout << "The number is prime" << endl;
 	}
 	else
 	{
-		cout << "The number " << number << " is not prime..!" << endl;
+		cout << "The number is not prime" << endl;
 	}
 	return 0;
 }
