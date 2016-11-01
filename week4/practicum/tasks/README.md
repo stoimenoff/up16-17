@@ -42,5 +42,7 @@ int main()
 ```
 
 #### За Любопитните:
-1. [Справка за rand фунцкията](http://www.cplusplus.com/reference/cstdlib/rand/)
-2. [Генератор на псевдо-случайни числа](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
+1. [Справка за rand фунцкията](http://en.cppreference.com/w/cpp/numeric/random/rand)
+2. [Справка за srand фунцкията](http://en.cppreference.com/w/cpp/numeric/random/srand)
+3. [Справка за time фунцкията](http://en.cppreference.com/w/cpp/chrono/c/time)
+4. [Генератор на псевдо-случайни числа](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
