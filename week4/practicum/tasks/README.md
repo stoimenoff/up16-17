@@ -21,6 +21,5 @@
 За целта include-нете следните библиотеки: stdlib.h и time.h
 За да гонерирате произволно число в интервала от 1 до 10 ползвайте следния код:
 
-srand (time(NULL));
-
-random_number = rand() % 10 + 1;
+### srand (time(NULL));
+### random_number = rand() % 10 + 1;
