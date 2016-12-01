@@ -9,7 +9,7 @@ int main(){
 	do{
 		cout << "Enter non negative number less than 1000: ";
 		cin >> n;
-	} while (n < 0 || n >= 1000); //Проверяваме дали числото е не отрицателно и е по- малко от 1000
+	} while (n < 0 || n >= 1000); //Проверяваме дали числото е не отрицателно или е по- малко от 1000
 
 	for (int i = 0; i < n; i++){
 		cout << "Please, enter a value for sequence[" << i << "]: ";
