@@ -9,7 +9,7 @@
 
 	Примери:
  	I ate 7 apples. -> I ate seven apples.
-	I have 0 friends :) -> I have zero friends :)
+	I have 0 friends :( -> I have zero friends :(
 
 ### Зад.3 Лексикографска наредба
 Напишете функция, която сравнява лексикографски два символни низа.
