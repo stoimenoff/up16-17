@@ -22,6 +22,22 @@ int compareLesser(char first[], char second[])
 		return 0;
 }
 
+int compareLesserRec(char first[], char second[])
+{
+	int lengthFirst = strlen(first);
+	int lengthSecond = strlen(second);
+	if(lengthFirst == 0 && lengthSecond == 0)
+		return 0;
+	else if(lengthFirst == 0 || lengthSecond == 0)
+		return (lengthFirst == 0)? -1 : 1;
+	else if(first[0] < second[0])
+		return -1;
+	else if(first[0] > second[0])
+		return 1;
+	else
+		return compareLesserRec(first + 1, second + 1);
+}
+
 int main()
 {
 	char pesho[100];
@@ -29,6 +45,7 @@ int main()
 	cin >> pesho;
 	cin >> gosho;
 	cout << compareLesser(pesho, gosho) << endl;
+	cout << compareLesserRec(pesho, gosho) << endl;
 
 	return 0;
 }
